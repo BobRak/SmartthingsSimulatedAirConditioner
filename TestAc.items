@@ -1,0 +1,9 @@
+// This can be added to your .things file
+Switch SimulatedAcSwitchItem   "Simulated Air conditioner Switch" <switch>             { channel="smartthings:switch:Home:SimulatedAcSwitch:switch" }
+String SimulatedAcModeItem     "Simulated Air conditioner Mode [%s]"                   { channel="smartthings:airConditionerMode:Home:SimulatedAcMode:airConditionerMode" }
+Number SimulatedAcTempItem     "Simulated Air conditioner Temperature [%d]"            { channel="smartthings:temperatureMeasurement:Home:SimulatedAcTemp:temperature" }
+Number SimulatedAcSetItem      "Simulated Air conditioner Cooling Set [%d]" <slider>   { channel="smartthings:thermostatCoolingSetpoint:Home:SimulatedAcSet:coolingSetpoint" }
+Number SimulatedAcThermItem    "Simulated AC Thermostat Cooling Set [%d]" <slider>   { channel="smartthings:thermostat:Home:SimulatedAcTherm:coolingSetpoint" }
+// Change the second parameter (i.e. SimulatedAcSwitchItem) to match your .things file
+// Change the descriptions if desired
+// Change the channel= values to match your bridge and thing names

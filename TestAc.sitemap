@@ -1,0 +1,10 @@
+// Add this to your .sitemap file
+    Frame label="Simulated Air Conditioner" {
+        Switch item=SimulatedAcSwitchItem
+        Switch item=SimulatedAcModeItem
+        Text   item=SimulatedAcTempItem 
+        Setpoint item=SimulatedAcSetItem minValue=20 maxValue=80 step=5
+        Setpoint item=SimulatedAcThermItem minValue=20 maxValue=80 step=5
+    }
+// Change the item= values to match your items.
+// Change the label if your want    

@@ -1,0 +1,9 @@
+    // This can be added to your .things file
+    // Air Conditioner test
+    switch                   SimulatedAcSwitch     [ smartthingsName="Simulated Air Conditioner" ]
+    airConditionerMode       SimulatedAcMode       [ smartthingsName="Simulated Air Conditioner" ]
+    temperatureMeasurement   SimulatedAcTemp       [ smartthingsName="Simulated Air Conditioner" ]
+    thermostatCoolingSetpoint SimulatedAcSet       [ smartthingsName="Simulated Air Conditioner" ]
+    thermostat                SimulatedAcTherm     [ smartthingsName="Simulated Air Conditioner" ]
+    // Replace "Simulated Air Conditioner" in the the smartthingsName= file with the name you gave your AC in the Smarrthings App
+    // Optionally replace the middle parameter (i.e. SimulatedAcSwiitch) with one of your choice and then change the .items file accordingly
